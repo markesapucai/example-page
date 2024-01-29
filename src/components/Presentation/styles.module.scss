@@ -2,15 +2,20 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 88vh;
-  background-color: #FAFCFB;
   color: #402129;
+  padding-top: 50px;
+
+  position: relative;
+  background: url('/assets/crumpled-white-paperboard.jpg');
+  background-size: cover;
+  width: 100%;
 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
+    margin-top: 100px;
 
     .textAp {
       display: flex;

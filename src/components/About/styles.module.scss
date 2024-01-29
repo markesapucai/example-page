@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 100px;
+  background-color: #C0614B;
+  padding: 24px;
+  
+  .imagem {
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    color: #FAFCFB;
+    padding: 24px;
+    border-radius: 2vh;
+    box-shadow: 5px 5px 100px #ff2f006e;
+    gap: 15px;
+  }
+}

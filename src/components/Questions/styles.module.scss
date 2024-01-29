@@ -1,0 +1,26 @@
+.container {
+  background-color: #733250;
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+
+  .content {
+    color: #fafcfba1;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 15px;
+
+    button {
+      padding: 10px 15px;
+      background-color: #733250;
+      color: #FAFCFB;
+      border-radius: 2vh;
+      border: 1px solid #FAFCFB;
+      font-size: large;
+    }
+  }
+}

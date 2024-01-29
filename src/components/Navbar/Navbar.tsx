@@ -1,10 +1,10 @@
-import './Navbar.css';
+import styles from './styles.module.scss';
 
 export default function NavBar() {
   return (
-    <div className="navBar">
+    <div className={styles.navBar}>
       <nav>
-        <div className="logo">
+        <div className={styles.logo}>
         <a href="#">LOGO</a>
         </div>
         <ul>
