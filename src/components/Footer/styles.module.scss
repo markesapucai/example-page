@@ -1,15 +1,16 @@
 @import '../Colors';
 
 .container {
-  background-color: $second-color;
+  background-color: $text-color;
   display: flex;
   padding: 24px;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 120px;
 
   .content {
     color: #fafcfba1;
+    width: 85vh;
   }
 
   .buttons {
@@ -17,12 +18,19 @@
     gap: 15px;
 
     button {
+      cursor: pointer;
       padding: 10px 15px;
-      background-color: $second-color;
-      color: $white-color;
+      background-color: $text-color;
+      color: $primary-color;
       border-radius: 2vh;
-      border: 1px solid $white-color;
+      border: 1px solid $primary-color;
       font-size: large;
+    }
+
+    button a {
+      text-decoration: none;
+      list-style: none;
+      color: $primary-color;
     }
   }
 }

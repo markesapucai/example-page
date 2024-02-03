@@ -3,7 +3,7 @@ import Apresentation from '../components/Presentation/Presentation';
 import Help from '../components/Help/Help';
 import About from '../components/About/About';
 import Testimony from '../components/Testimony/Testimony';
-import Questions from '../components/Questions/Footer';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
     <Help />
     <About />
     <Testimony />
-    <Questions />
+    <Footer />
     </>
   );
 }

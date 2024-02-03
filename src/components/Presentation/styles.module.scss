@@ -8,6 +8,13 @@
   background-color: $primary-color;
 
   
+  .credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abad9d;
+  }
+  
 
   .container {
     display: flex;
@@ -33,6 +40,10 @@
         font-size: 18px;
         font-weight: 600;
         border-radius: 2vh;
+      }
+      .getStart:hover {
+        border: 2px $text-color solid;
+        background-color:#dbddcd;
       }
     }
     

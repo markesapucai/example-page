@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.imagem}>
+        <div className={styles.overlay}>
           <Image
             src="/assets/psicoAgianpreview.png"
             alt="Loogo"
@@ -13,11 +13,9 @@ export default function About() {
             width={350} />
         </div>
         <div className={styles.content}>
-          <h2>About osichr</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
-            Unde, eos iste? Voluptatum id, molestias exercitationem fugiat <br />
-            libero, similique ipsa vitae dicta quaerat rerum dolores eum <br /> assumenda
-            soluta impedit praesentium perspiciatis.</p>
+          <h2>Meet Jessica: Your Ally on the Path to Personal Growth</h2>
+          <p>Hey there! I am Jessica, a psychologist in my 30s who finds joy in hiking, exploring books, and cherishing moments with my close family. These personal experiences have deepened my appreciation for human connections. <br /> <br />
+            In our sessions, I blend evidence-based practices with a personal touch. Whether you are navigating relationships, building resilience, or seeking a positive mindset, I am here for you. Let is embark on this journey together, where self-discovery meets genuine connection. Excited to be a part of your story.</p>
         </div>
       </div>
     </>

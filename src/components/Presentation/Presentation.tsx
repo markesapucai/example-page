@@ -5,12 +5,15 @@ export default function Apresentation() {
   return (
     <>
       <div className={styles.content}>
+        <div className={styles.credits}>
+          <p>This website is a fictional creation designed for portfolio and showcase purposes only. The goal of this showcase is to demonstrate the creator is skills in web design and content creation.</p>
+        </div>
         <div className={styles.container}>
           <div className={styles.textAp}>
             <h1>Discover Emotional Well <br />being and Flourish with</h1>
             <h3>Your Path to Healing, Resilience, and a Fulfilling Life Starts Here <br />
-            – A Compassionate Guide for Overcoming Challenges and <br />
-            Cultivating Lasting Joy</h3>
+              – A Compassionate Guide for Overcoming Challenges and <br />
+              Cultivating Lasting Joy</h3>
             <button className={styles.getStart}>Get start</button>
           </div>
 
