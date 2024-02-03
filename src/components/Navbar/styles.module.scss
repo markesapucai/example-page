@@ -1,8 +1,10 @@
+@import '../Colors';
+
 .navBar {
-  background-color: #733250;
-  padding: 12px 0;
-  color: white;
-  font-size: larger;
+  background-color: $second-color;
+  padding: 15px 0;
+  color: $white-color;
+  font-size: large;
 
   nav {
     display: flex;
@@ -25,7 +27,7 @@
 
     a {
       text-decoration: none;
-      color: white;
+      color: $white-color;
     }
   }
 }

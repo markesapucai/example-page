@@ -7,7 +7,7 @@ export default function About() {
       <div className={styles.container}>
         <div className={styles.imagem}>
           <Image
-            src="/assets/buswomark.png"
+            src="/assets/psicoAgianpreview.png"
             alt="Loogo"
             height={350}
             width={350} />

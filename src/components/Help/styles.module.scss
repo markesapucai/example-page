@@ -1,9 +1,10 @@
+@import '../Colors';
+
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 100px;
-  color: #402129;
+  color: $text-color;
   padding-top: 100px;
 
   position: relative;
@@ -18,20 +19,29 @@
 
   .box {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 
     .contentBox {
-      border: 1px solid rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid $white-color;
       padding: 15px;
       border-radius: 2vh;
-      box-shadow: 5px 5px 100px #4021293a;
+      box-shadow: 5px 5px 100px #21402525;
+      height: 200px;
+      gap: 15px;
+    }
+    .contentBox:hover {
+      border: 1px solid $second-color;
     }
 
     .contentBoxSpace {
       display: flex;
-      gap: 15px;
+      gap: 30px;
       flex-direction: column;
       padding-bottom: 100px;
+      width: 350px;
+      
     }
   }
 }

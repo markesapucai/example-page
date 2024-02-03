@@ -1,11 +1,11 @@
+@import '../Colors';
+
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
   gap: 100px;
-  background-color: #C0614B;
+  background-color: $primary-color;
   padding: 24px;
   
   .imagem {
@@ -17,7 +17,7 @@
   .content {
     display: flex;
     flex-direction: column;
-    color: #FAFCFB;
+    color:$white-color;
     padding: 24px;
     border-radius: 2vh;
     box-shadow: 5px 5px 100px #ff2f006e;

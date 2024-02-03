@@ -1,5 +1,7 @@
+@import '../Colors';
+
 .container {
-  background-color: #733250;
+  background-color: $second-color;
   display: flex;
   padding: 24px;
   justify-content: center;
@@ -16,10 +18,10 @@
 
     button {
       padding: 10px 15px;
-      background-color: #733250;
-      color: #FAFCFB;
+      background-color: $second-color;
+      color: $white-color;
       border-radius: 2vh;
-      border: 1px solid #FAFCFB;
+      border: 1px solid $white-color;
       font-size: large;
     }
   }
