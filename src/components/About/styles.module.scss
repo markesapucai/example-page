@@ -26,5 +26,26 @@
     gap: 15px;
     width: 550px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+    height: 900px;
+
+    .overlay img {
+      width: 80%;
+      height: 100%;
+    }
   
+    .content {
+      margin: 15px;
+      padding: 24px;
+      gap: 15px;
+      width: 90%;
+      height: 900px;
+      border: 1px solid red;
+    }
+  }
 }

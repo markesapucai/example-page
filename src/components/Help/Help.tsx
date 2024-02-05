@@ -5,7 +5,7 @@ export default function Help() {
     <>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h2>How i can <br />help you?</h2>
+          <h1>How i can <br />help you?</h1>
         </div>
 
         <div className={styles.box}>

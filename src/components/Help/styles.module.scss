@@ -6,7 +6,7 @@
   gap: 100px;
   color: $text-color;
   padding-top: 100px;
-
+  
   position: relative;
   background: url('/assets/crumpled-white-paperboard.jpg');
   background-size: cover;
@@ -15,11 +15,13 @@
   .content {
     display: flex;
     align-items: flex-start;
+    
   }
 
   .box {
     display: flex;
     gap: 30px;
+    
 
     .contentBox {
       display: flex;
@@ -30,6 +32,7 @@
       box-shadow: 5px 5px 100px #21402525;
       height: 200px;
       gap: 15px;
+      
     }
     .contentBox:hover {
       border: 1px solid $second-color;
@@ -44,5 +47,34 @@
       
     }
 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 30px;
+  
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+
+      .contentBox {
+        
+        height: 230px;
+       
+        
+      }
+      .contentBoxSpace {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding-bottom: 30px;
+        width: 300px;
+      }
+    }
   }
 }
