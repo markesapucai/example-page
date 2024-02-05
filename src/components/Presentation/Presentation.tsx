@@ -10,9 +10,9 @@ export default function Apresentation() {
         </div>
         <div className={styles.container}>
           <div className={styles.textAp}>
-            <h1>Discover Emotional Well <br />being and Flourish with</h1>
-            <h3>Your Path to Healing, Resilience, and a Fulfilling Life Starts Here <br />
-              – A Compassionate Guide for Overcoming Challenges and <br />
+            <h1>Discover Emotional Well being and Flourish with</h1>
+            <h3>Your Path to Healing, Resilience, and a Fulfilling Life Starts Here 
+              – A Compassionate Guide for Overcoming Challenges and 
               Cultivating Lasting Joy</h3>
             <button className={styles.getStart}>Get start</button>
           </div>

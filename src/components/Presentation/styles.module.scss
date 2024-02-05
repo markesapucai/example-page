@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     color: #abad9d;
+    text-align: justify;
   }
   
 
@@ -28,6 +29,7 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 24px;   
+      width: 600px;
 
       .getStart {
         background-color:$primary-color;
@@ -69,12 +71,10 @@
   .content {
     flex-direction: column;
     width: 100%;
-    
 
     .credits {
       flex-direction: column;
-      width: 100%;
-      
+      width: 100%;      
     }
 
     .container {
@@ -83,11 +83,18 @@
       gap: 0px;
       padding: 10px;
       margin-top: 30px;
+
+      .textAp {
+        width: 100%;
+        align-items: center;
+      }
+      .textAp h1{
+        text-align: justify;
+      }
     }
 
     .overlay {
-      width: 200px;
-      
+      width: 200px;      
     }
 
     .line {
@@ -98,5 +105,20 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Estilos para tablets e smartphones maiores (601px a 1024px) */
+  .content {
+    .container {
+      gap: 0px;
+      margin-top: 30px;
+      height: 600px;
+      padding: 15px;
+      
+      .textAp {
+        width: 50%;
+      }
+
+      .overlay img {
+        width: 100%;
+      }
+    }
+  }
 }

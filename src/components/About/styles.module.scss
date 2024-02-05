@@ -45,7 +45,23 @@
       gap: 15px;
       width: 90%;
       height: 900px;
-      border: 1px solid red;
     }
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    gap: 0px;
+    height: 800px;
+
+    .overlay img {
+      width: 100%;
+    }
+
+    .content {
+      margin: 0px;
+    }
+  
   }
 }
